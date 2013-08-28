@@ -1,4 +1,4 @@
-var Stack = require('image').Stack;
+var Stack = require('../lib/image').Stack;
 var fs = require('fs');
 
 var desktop = fs.readFileSync('desktop.bgr');

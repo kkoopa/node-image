@@ -23,18 +23,18 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "http://github.com/pkrumins/node-image.git" 
+        "url": "http://github.com/kkoopa/node-image.git" 
     }, 
     "directories": {
         "lib": "lib"
     },
     "engines": {
-        "node": ">=0.1.93"
+        "node": ">=0.6"
     },
     "dependencies": {
-        "png": "*",
-        "jpeg": "*",
-        "gif": "*"
+        "png": "git://github.com/kkoopa/node-png.git",
+        "jpeg": "git://github.com/kkoopa/node-jpeg.git",
+        "gif": "git://github.com/kkoopa/node-gif.git"
     }
 }
 
